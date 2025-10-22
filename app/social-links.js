@@ -5,7 +5,7 @@ import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 const socialLinks = [
     {
         name: "Online Store",
-        path: "www.syphyr.co/",
+        path: "https://www.syphyr.co/",
         icon: <FontAwesomeIcon icon={faGlobe} size="xl" />
         // icon: 
     },
