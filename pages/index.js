@@ -12,6 +12,7 @@ export default function Home() {
     <script src="https://kit.fontawesome.com/8a78e192ec.js" crossorigin="anonymous"></script>
     return (
         <body className={`${fontPoppins.variable} ${fontAtacama.variable} ${fontCarattere.variable} ${fontAnagram.variable} `}>
+            <Suspense fallback={<Loading />} >
                 <div className="w-screen h-screen overflow-hidden flex flex-col justify-between relative items-center">
                     <div className="h-[10vh] sm:h-[15vh] w-screen bg-foreground absolute top-0 left-0 z-0 text-(--highlight) flex justify-end items-end pr-3 pb-1 text-[0.7rem] sm:text-[1rem]">Rise. Reign. Radiate</div>
                     <div className="z-1 flex flex-col sm:mt-9 mt-5 gap-1 sm:w-[50%] w-[90%] sm:text-[1rem] text-sm">
@@ -64,6 +65,7 @@ export default function Home() {
                 <div className="w-screen h-[20vh] sm:h-auto sm:w-auto overflow-hidden flex justify-center fixed sm:bottom-0 sm:-right-32 -bottom-14 ">
                     <Image src={SYPHYR} alt="SYPHYR" className="w-[90vw] sm:w-[41vw] flex justify-center items-center bg-center bg-cover object-cover sm:rotate-270"/>
                 </div>
+            </Suspense>
 
         </body>
     )
