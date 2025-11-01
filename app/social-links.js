@@ -26,7 +26,7 @@ const socialLinks = [
     },
     {
         name: "Thread",
-        path: "",
+        path: "https://www.threads.com/@syphyr_official",
         icon: <FontAwesomeIcon icon={faThreads} size="xl" />
     },
     {
