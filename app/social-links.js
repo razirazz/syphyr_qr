@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faInstagram, faXTwitter, faFacebookF, faThreads, faPinterestP, faLinkedinIn, faYoutube, faWhatsapp, faSnapchatGhost,  } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram, faXTwitter, faFacebookF, faThreads, faPinterestP, faLinkedinIn, faYoutube, faWhatsapp, faSnapchatGhost } from "@fortawesome/free-brands-svg-icons";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 
 const socialLinks = [
@@ -7,7 +7,6 @@ const socialLinks = [
         name: "Online Store",
         path: "https://www.syphyr.co/",
         icon: <FontAwesomeIcon icon={faGlobe} size="xl" />
-        // icon: 
     },
     {
         name: "Instagram",
@@ -46,7 +45,7 @@ const socialLinks = [
     },
     {
         name: "WhatsApp Community",
-        path: "",
+        path: "https://chat.whatsapp.com/IvK58ZM0TRXExhrPHmfnmP?mode=wwt",
         icon: <FontAwesomeIcon icon={faWhatsapp} size="xl" />
     },
     {
